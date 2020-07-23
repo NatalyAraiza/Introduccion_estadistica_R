@@ -1,3 +1,6 @@
+getwd()
+#setwd("/home/user/Documents/etc") <--Agregar la direccion donde esta el archivo .csv
+
 datos <- read.table("Crecimiento real del PIB.csv", sep =",", header=TRUE)
 head(datos)#nombre de encabezados
 names(datos) #nombres de columnas
